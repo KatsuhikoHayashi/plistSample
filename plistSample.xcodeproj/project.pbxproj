@@ -13,6 +13,8 @@
 		A80D82781B2A9AA3003EB3B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80D82771B2A9AA3003EB3B1 /* Images.xcassets */; };
 		A80D827B1B2A9AA3003EB3B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80D82791B2A9AA3003EB3B1 /* LaunchScreen.xib */; };
 		A80D82871B2A9AA3003EB3B1 /* plistSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D82861B2A9AA3003EB3B1 /* plistSampleTests.swift */; };
+		A80D82921B2A9BAB003EB3B1 /* yomikomi1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A80D82901B2A9BAB003EB3B1 /* yomikomi1.plist */; };
+		A80D82931B2A9BAB003EB3B1 /* yomikomi2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A80D82911B2A9BAB003EB3B1 /* yomikomi2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A80D82801B2A9AA3003EB3B1 /* plistSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plistSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80D82851B2A9AA3003EB3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80D82861B2A9AA3003EB3B1 /* plistSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plistSampleTests.swift; sourceTree = "<group>"; };
+		A80D82901B2A9BAB003EB3B1 /* yomikomi1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = yomikomi1.plist; sourceTree = "<group>"; };
+		A80D82911B2A9BAB003EB3B1 /* yomikomi2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = yomikomi2.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A80D826D1B2A9AA3003EB3B1 /* plistSample */,
 				A80D82831B2A9AA3003EB3B1 /* plistSampleTests */,
 				A80D826C1B2A9AA3003EB3B1 /* Products */,
+				A80D82901B2A9BAB003EB3B1 /* yomikomi1.plist */,
+				A80D82911B2A9BAB003EB3B1 /* yomikomi2.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80D82921B2A9BAB003EB3B1 /* yomikomi1.plist in Resources */,
 				A80D82761B2A9AA3003EB3B1 /* Main.storyboard in Resources */,
 				A80D827B1B2A9AA3003EB3B1 /* LaunchScreen.xib in Resources */,
+				A80D82931B2A9BAB003EB3B1 /* yomikomi2.plist in Resources */,
 				A80D82781B2A9AA3003EB3B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
