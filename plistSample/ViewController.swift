@@ -46,10 +46,12 @@ class ViewController: UIViewController {
 
         // 取得できる個数の分だけ繰り返す
         for value in arr {
-            // Arrayの中はDictionaryなのでキーを指定してデータを取得。その中身はまたArrayなのでNSArrayに取り込み
+            // Arrayの中はDictionaryなのでキーを指定してデータを取得。
+            // その中身はまたArrayなのでNSArrayに取り込み
             let arr2 = value.objectForKey("BBB") as! NSArray
             for value2 in arr2 {
                 // 取得できる個数の分だけ繰り返す
+                // Arrayの中身はString型なので、そのまま出力
                 println(value2)
             }
         }
